@@ -1,0 +1,260 @@
+:root {
+  --black: #08020D;
+  --dark: #3C3B3D;
+  --grey: #E0E0E0;
+  --dark-grey: #CACACA;
+  --green: #34C176;
+  --orange: #F89202;
+  --purple: #5328A1;
+  --red: #95390C;
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: Roboto;
+  src: url("../fonts/Roboto-Bold.ttf");
+}
+@font-face {
+  font-weight: 500;
+  font-family: Roboto;
+  src: url("../fonts/Roboto-Medium.ttf");
+}
+@font-face {
+  font-weight: 400;
+  font-family: Roboto;
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+body {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  color: #ffffff;
+  font-family: Roboto, sans-serif;
+  line-height: 1.5em;
+  overflow-x: hidden;
+}
+
+.music-header {
+  position: absolute;
+  top: 25px;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.nav > ul {
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: repeat(1, 1fr) repeat(1, 300px);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header-left-side > .list-item:hover {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.title {
+  position: relative;
+  color: #ffffff;
+  white-space: nowrap;
+  margin-left: 40px;
+  margin-right: 66px;
+  margin-bottom: 23px;
+}
+
+.title::before {
+  position: absolute;
+  top: 0;
+  left: -40px;
+  width: 24px;
+  height: 24px;
+  background-size: cover;
+  background-image: url("../images/logo.svg");
+  content: "";
+}
+
+.search {
+  width: 238px;
+  height: 25px;
+  padding: 0 0 0 10px;
+  color: #757575;
+  text-transform: uppercase;
+  background-color: var(--dark);
+  border-radius: 50px;
+  border: none;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.header-left-side {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  margin-bottom: 18px;
+  color: var(--dark-grey);
+}
+
+.header-left-side > * {
+  flex: 1 5;
+}
+
+.justify-self {
+  justify-self: right;
+}
+
+.justify-left {
+  justify-self: left;
+}
+
+@media screen and (min-width: 1240px) {
+  .music-header {
+    min-width: 1200px;
+  }
+}
+@media screen and (max-width: 414px) {
+  body {
+    padding: 0 20px;
+  }
+
+  .music-header {
+    width: 374px;
+  }
+
+  .nav > ul {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  .header-left-side > * {
+    flex: none;
+  }
+
+  li {
+    display: block;
+    width: 100%;
+  }
+
+  .search {
+    width: calc(100% - 10px);
+  }
+}
+.main-section {
+  display: flex;
+  justify-content: center;
+  padding: 200px 0 200px 0;
+  width: 100vw;
+  background-image: url("../images/banner.png");
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 1.5em;
+}
+
+h2 {
+  font-size: 38px;
+  line-height: 1.5em;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+.form-subscription {
+  text-align: center;
+}
+
+.form-subscription > p {
+  margin-top: 31px;
+  margin-bottom: 17px;
+}
+
+.form-input {
+  min-width: 246px;
+  min-height: 50px;
+  margin-bottom: 1.5rem;
+  padding: 0 0 0 20px;
+  color: #ffffff;
+  border: 2px solid var(--dark-grey);
+  border-radius: 3px;
+  background: none;
+}
+
+.mr-24 {
+  margin-right: 24px;
+}
+
+.access {
+  padding: 20px 30px;
+  width: 570px;
+  height: 57px;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--green);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.t-uppercase {
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 1240px) {
+  .main-section {
+    min-width: 1200px;
+  }
+}
+@media screen and (max-width: 414px) {
+  .main-section {
+    display: block;
+    padding: 250px 20px 201px 20px;
+    width: 100%;
+  }
+
+  .form-subscription {
+    width: 374px;
+  }
+
+  .form-subscription > * {
+    width: 100%;
+  }
+
+  .form-input {
+    width: calc(100% - 24px);
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .form-subscription > p {
+    margin: 16px 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,28 @@
+@mixin image($name) {
+  background-image: url('../images/#{$name}.png');
+  background-position: center;
+  background-size: cover;
+}
+
+@mixin button {
+  padding: 20px 30px;
+  
+  border-radius: 5px;
+}
+
+$breakpoints: (
+  breakpoint-mobile: 414px,
+  breakpoint-desktop: 1240px,
+);
+
+@mixin media($type, $pixel: null) {
+  @if $type == "custom" {
+    @media screen and (min-width: #{$pixel}) {
+      @content;
+    }
+  } @else {
+    @media screen and (max-width: map-get($breakpoints, breakpoint-#{$type})) {
+      @content;
+    }
+  }
+}

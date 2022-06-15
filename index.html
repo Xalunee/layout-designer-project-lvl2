@@ -5,9 +5,41 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>layout-designer-project-lvl2</title>
-  <link rel="stylesheet" href="">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  
+  <header class="music-header">
+    <nav class="nav">
+      <ul>
+        <div class="header-left-side d-flex justify-left">
+          <li class="list-item title mr-90"><a href="#"></a>Music Box</li>
+          <li class="list-item"><a href="#"></a>Главная</li>
+          <li class="list-item"><a href="#"></a>Каталог</li>
+          <li class="list-item"><a href="#"></a>Исполнители</li>
+          <li class="list-item"><a href="#"></a>Контакты</li>
+        </div>
+        <li class="list-item justify-self ml-auto">
+          <label class="sr-only" for="search">Поиск по сайту</label>
+          <input class="search" id="search" type="text" placeholder="Поиск...">
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="main-section" id="page-description">
+      <form class="form-subscription">
+        <h1 class="t-uppercase">Онлайн музыка где угодно</h1>
+        <h2 class="t-uppercase">без ограничений</h2>
+        <p>Получите доступ всего за несколько шагов. Заполните форму ниже и откройте мир музыки</p>
+        <label class="sr-only" for="name">Введите имя</label>
+        <input class="form-input mr-24" id="name" type="text" placeholder="Имя">
+        <label class="sr-only" for="email">Введите почту</label>
+        <input class="form-input" id="email" type="email" placeholder="Email">
+        <br>
+        <label class="sr-only" for="submit">Получить доступ к музыке</label>
+        <input class="access t-uppercase" id="submit" type="submit" value="Получить доступ">
+      </form>
+    </section>
+  </main>
 </body>
 </html>
