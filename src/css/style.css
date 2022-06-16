@@ -229,12 +229,12 @@ h1, h2 {
   text-transform: uppercase;
 }
 
-@media screen and (min-width: 1240px) {
+@media (min-width: 1240px) {
   .main-section {
     min-width: 1200px;
   }
 }
-@media screen and (max-width: 414px) {
+@media (max-width: 414px) {
   .main-section {
     display: block;
     padding: 250px 20px 201px 20px;
