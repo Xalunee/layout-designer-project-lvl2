@@ -201,7 +201,7 @@ h1, h2 {
   text-transform: uppercase;
 }
 
-@media screen and (min-width: 1240px) {
+@media (min-width: 1240px) {
   .music-header {
     min-width: 1200px;
   }
@@ -211,7 +211,7 @@ h1, h2 {
   }
 }
 
-@media screen and (max-width: 414px) {
+@media (max-width: 415px) {
   body {
     padding: 0 20px;
   }
