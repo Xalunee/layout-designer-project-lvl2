@@ -193,7 +193,7 @@ h1, h2 {
     min-width: 1200px;
   }
 }
-@media (max-width: 455px) {
+@media (max-width: 454px) {
   body {
     padding: 0 20px;
   }
@@ -225,6 +225,10 @@ h1, h2 {
 
   li {
     display: block;
+  }
+
+  .list-item {
+    height: 13px;
   }
 
   .title {
