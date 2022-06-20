@@ -211,7 +211,7 @@ h1, h2 {
   }
 }
 
-@media (max-width: 460px) {
+@media (max-width: 440px) {
   body {
     padding: 0 20px;
   }
@@ -228,6 +228,13 @@ h1, h2 {
   }
 
   .list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: min-content ;
+  }
+
+  .list {
     margin-bottom: 18px;
   }
 
@@ -237,14 +244,15 @@ h1, h2 {
 
   li {
     display: block;
-    width: 100%;
   }
 
   .title {
+    margin-right: 0;
     margin-bottom: 23px;
   }
   
   .search {
+    display: block;
     width: calc(100% - 10px);
   }
 
