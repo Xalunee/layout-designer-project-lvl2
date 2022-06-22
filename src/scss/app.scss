@@ -245,10 +245,13 @@ h1, h2 {
     width: 100%;
   }
 
+  .nav {
+    display: block;
+    margin-bottom: 18px;
+  }
+
   .list {
     display: flex;
-
-    margin-bottom: 18px;
 
     width: min-content ;
     height: min-content;
@@ -265,7 +268,11 @@ h1, h2 {
 
   .heading {
     margin-right: 0;
-    margin-bottom: 23px;
+    margin-bottom: 17px;
+  }
+
+  .heading > span {
+    display: block;
   }
   
   .search {
