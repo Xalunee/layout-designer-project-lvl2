@@ -59,7 +59,9 @@ body {
   align-items: center;
   
   margin-right: 90px;
+}
 
+.heading-link {
   font-weight: bold;
   color: #ffffff;
   white-space: nowrap;
@@ -246,12 +248,11 @@ h1, h2 {
   }
 
   .nav {
-    display: block;
     margin-bottom: 18px;
   }
 
   .list {
-    display: flex;
+    display: block;
 
     width: min-content ;
     height: min-content;
@@ -269,10 +270,6 @@ h1, h2 {
   .heading {
     margin-right: 0;
     margin-bottom: 17px;
-  }
-
-  .heading > span {
-    display: block;
   }
   
   .search {
