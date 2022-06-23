@@ -258,11 +258,12 @@ h1, h2 {
 
   .main-section {
     display: block;
-    padding: 250px 20px 200px 20px;
+    padding: 200px 20px 200px 20px;
     width: 100%;
   }
 
   .container {
+    margin-top: 50px;
     width: 100%;
   }
 
