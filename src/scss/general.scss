@@ -15,14 +15,44 @@ $breakpoints: (
   breakpoint-desktop: 1240px,
 );
 
-@mixin media($type, $pixel: null) {
-  @if $type == "custom" {
-    @media screen and (min-width: #{$pixel}) {
-      @content;
-    }
-  } @else {
-    @media screen and (max-width: map-get($breakpoints, breakpoint-#{$type})) {
-      @content;
-    }
-  }
+@font-face {
+  font-weight: 700;
+  font-family: Roboto;
+  src: url("../fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: Roboto;
+  src: url("../fonts/Roboto-Medium.ttf");
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: Roboto;
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 1.5em;
+}
+
+h2 {
+  font-size: 38px;
+  line-height: 1.5em;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 1.9em;
+}
+
+h4 {
+  font-size: 18px;
+  line-height: 1.5em;
+}
+
+* {
+  margin: 0;
 }
