@@ -145,13 +145,13 @@ h1, h2 {
   margin: 0;
 }
 
-.form-subscription {
+.container {
   margin: 0 auto;
   max-width: 1200px;
   text-align: center;
 }
 
-.form-subscription > p {
+.container > p {
   margin-top: 31px;
   margin-bottom: 17px;
 }
@@ -167,7 +167,7 @@ h1, h2 {
   background: none;
 }
 
-.form-subscription > div {
+.form-subscription {
   display: flex;
   column-gap: 24px;
   flex-wrap: wrap;
@@ -258,21 +258,21 @@ h1, h2 {
 
   .main-section {
     display: block;
-    padding: 250px 20px 201px 20px;
+    padding: 250px 20px 200px 20px;
+    width: 100%;
+  }
+
+  .container {
     width: 100%;
   }
 
   .form-subscription {
-    width: 100%;
-  }
-
-  .form-subscription > div {
     column-gap: 0;
     margin: 0;
     width: 100%;
   }
 
-  .form-subscription > * {
+  .container > * {
     width: 100%;
   }
 
@@ -296,7 +296,7 @@ h1, h2 {
     font-size: 18px;
   }
 
-  .form-subscription > p {
+  .main-section > div > p {
     margin: 16px 0;
   }
 }
