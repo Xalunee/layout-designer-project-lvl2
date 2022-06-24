@@ -282,7 +282,7 @@ p {
 .pricing-item {
   padding: 24px 1.5rem 0 1.5rem;
   height: 615px;
-  max-width: 369px;
+  width: 366.6666666667px;
   border-radius: 1rem;
 }
 
@@ -470,7 +470,7 @@ p {
   .pricing-item {
     padding-top: 16px;
     height: 595px;
-    max-width: 100%;
+    width: 100%;
   }
 }
 

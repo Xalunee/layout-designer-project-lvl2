@@ -24,7 +24,7 @@ p {
 .pricing-item {
   padding: 24px 1.5rem 0 1.5rem;
   height: 615px;
-  max-width: 369px;
+  width: calc(1100px / 3);
 
   border-radius: 1rem;
 }
