@@ -1,0 +1,143 @@
+@media (min-width: 1240px) {
+  .music-header {
+    min-width: 1200px;
+  }
+
+  .main-section {
+    min-width: 1200px;
+  }
+
+  .pricing-section {
+    min-width: 1200px;
+  }
+}
+
+@media (max-width: 811px) {
+  .music-header {
+    padding: 0 20px;
+  }
+
+  .header-row {
+    display: block;
+    
+    height: auto;
+  }
+
+  .header-row > * {
+    width: min-content;
+  }
+
+  .header-row > div {
+    width: 100%;
+  }
+
+  .nav {
+    margin-bottom: 18px;
+  }
+
+  .list {
+    display: block;
+
+    width: min-content ;
+    height: min-content;
+  }
+
+  .list-item {
+    display: block;
+
+    margin-bottom: 3px;
+    height: 13px;
+
+    line-height: 13px;
+  }
+
+  .heading {
+    margin-right: 0;
+    margin-bottom: 17px;
+  }
+  
+  .search {
+    width: 100%;
+  }
+
+
+  .main-section {
+    display: block;
+    padding: 200px 20px 200px 20px;
+    width: 100%;
+  }
+
+  .main-section > .container {
+    margin-top: 50px;
+    width: 100%;
+  }
+
+  .main-section > .container > p {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+  .form-subscription {
+    column-gap: 0;
+    margin: 0;
+    width: 100%;
+  }
+
+  .container > * {
+    width: 100%;
+  }
+
+  .form-input {
+    width: 100%;
+  }
+
+  .btn-access {
+    width: 100%;
+  }
+
+  .mr-24 {
+    margin-right: 0;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+  
+  h2 {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 16px;
+    line-height: 1.5em;
+  }
+
+  h4 {
+    font-size: 18px;
+    line-height: 1.4em;
+  }
+
+  .main-section > div > p {
+    margin: 16px 0;
+  }
+
+  
+  .pricing-section > .container {
+    margin: 0 20px;
+  }
+
+  .items {
+    flex-direction: column;
+    row-gap: 50px;
+
+    margin-bottom: 40px;
+  }
+
+  .pricing-item {
+    height: 595px;
+  }
+
+  .pricing-item > h3 {
+    margin-bottom: 203px;
+  }
+}
