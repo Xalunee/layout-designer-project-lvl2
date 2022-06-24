@@ -264,7 +264,9 @@ p {
 }
 
 .pricing-section {
+  margin: 0 auto;
   padding-top: 101px;
+  max-width: 1200px;
 }
 
 .pricing-section > .container > h2 {
@@ -344,7 +346,7 @@ p {
   }
 
   .pricing-section > .container {
-    min-width: 1200px;
+    max-width: 1200px;
   }
 }
 @media (max-width: 811px) {
@@ -466,6 +468,7 @@ p {
   }
 
   .pricing-item {
+    padding-top: 16px;
     height: 595px;
     max-width: 100%;
   }
