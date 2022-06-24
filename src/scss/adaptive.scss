@@ -7,7 +7,7 @@
     min-width: 1200px;
   }
 
-  .pricing-section {
+  .pricing-section > .container {
     min-width: 1200px;
   }
 }
@@ -126,6 +126,10 @@
     margin: 0 20px;
   }
 
+  .pricing-section > .container > h2 {
+    margin-bottom: 46px;
+  }
+
   .items {
     flex-direction: column;
     row-gap: 50px;
@@ -135,9 +139,6 @@
 
   .pricing-item {
     height: 595px;
-  }
-
-  .pricing-item > h3 {
-    margin-bottom: 203px;
+    max-width: 100%;
   }
 }
