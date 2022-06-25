@@ -142,4 +142,36 @@
     height: 595px;
     width: 100%;
   }
+
+
+  .news-section h3 {
+    font-size: 18px;
+  }
+
+  .news-body > h3 {
+    margin-bottom: 16px;
+    font-size: 16px;
+  }
+
+  .news {
+    row-gap: 64px;
+  }
+
+  .news-section > .container {
+    margin: 0 20px;
+  }
+
+  .news-item {
+    flex-wrap: wrap;
+  }
+
+  .news-item > img {
+    margin-bottom: 50px;
+    width: 100%;
+    height: auto;
+  }
+
+  .news-item:nth-child(2n) > img{
+    order: 0;
+  }
 }
