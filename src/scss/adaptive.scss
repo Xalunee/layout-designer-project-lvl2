@@ -14,6 +14,10 @@
   .news-section > .container {
     max-width: 1200px;
   }
+
+  .app-section > .container {
+    max-width: 1200px;
+  }
 }
 
 @media (max-width: 811px) {
@@ -177,5 +181,23 @@
 
   .news-item:nth-child(2n) > img{
     order: 0;
+  }
+
+  
+  .app-section > .container {
+    margin: 0 20px;
+  }
+
+  .app-section > .container > div {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .app-img {
+    grid-row: 1;
+  }
+
+  .app-description > p {
+    margin-bottom: 15px;
   }
 }
