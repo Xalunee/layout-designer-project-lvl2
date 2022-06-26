@@ -188,20 +188,16 @@
     margin: 0 20px;
   }
 
-  .app-section > .container {
+  .app-section > .container > div {
     grid-template-columns: repeat(1, 1fr);
-  }
-
-  .app-section h2 {
-    grid-row: 1;
-    grid-column: 1;
+    grid-template-rows: repeat(2, 1fr);
   }
 
   .app-img {
-    grid-row: 2;
+    grid-row: 1;
   }
 
   .app-description > p {
-    margin-bottom: 15px;
+    margin-bottom: 16px;
   }
 }
