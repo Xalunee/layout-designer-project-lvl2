@@ -27,12 +27,16 @@ p {
 }
 
 .news-section {
+  margin: 0 auto;
   padding-top: 100px;
+  max-width: 1240px;
 }
 
 .news-item {
   display: flex;
   column-gap: 50px;
+
+  height: min-content;
 
   text-align: start;
 }
@@ -73,8 +77,9 @@ p {
 }
 
 .news-footer > .btn {
-  display: inline;
+  width: min-content;
   padding: 16px 30px;
+  white-space: nowrap;
 
   color: var(--dark-grey);
   border: 1px solid #CACACA;
