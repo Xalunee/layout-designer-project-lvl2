@@ -532,13 +532,16 @@ h4 {
   max-width: 1240px;
 }
 
-.app-section > .container > div {
+.app-section > .container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, min-content);
   justify-items: center;
 }
 
 .app-section h2 {
+  grid-row: 1;
+  grid-column: span 2;
   margin-bottom: 48px;
 }
 
@@ -741,13 +744,17 @@ h4 {
     margin: 0 20px;
   }
 
-  .app-section > .container > div {
+  .app-section > .container {
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .app-section h2 {
+    grid-row: 1;
+    grid-column: 1;
   }
 
   .app-img {
-    grid-row: 1;
+    grid-row: 2;
   }
 
   .app-description > p {
