@@ -41,6 +41,16 @@
   margin-bottom: 15px;
 }
 
+.footer-col-subscribe > div {
+  display: flex;
+  column-gap: 24px;
+}
+
+.footer-col-subscribe a {
+  display: flex;
+  align-items: center;
+}
+
 hr {
   position: absolute;
   left: 0;
@@ -50,11 +60,6 @@ hr {
   width: 100%;
 
   color: var(--dark-grey);
-}
-
-.footer-col-subscribe > div {
-  display: flex;
-  column-gap: 24px;
 }
 
 .footer-row {
