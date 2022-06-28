@@ -880,6 +880,10 @@ hr {
     margin-bottom: 75px;
   }
 
+  .footer-section h2 {
+    margin-bottom: 19px;
+  }
+
   .footer-row {
     flex-direction: column;
     row-gap: 16px;
