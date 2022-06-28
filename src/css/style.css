@@ -611,6 +611,14 @@ h4 {
   --red: #95390C;
 }
 
+html {
+  font-size: 24px;
+}
+
+html > * {
+  font-size: 16px;
+}
+
 .footer-section {
   padding-top: 3rem;
   padding-bottom: 2rem;
@@ -639,7 +647,8 @@ h4 {
 }
 
 .footer-section ul li,
-.footer-section ul a {
+.footer-section a,
+.footer-section p {
   color: var(--grey);
 }
 
@@ -660,53 +669,16 @@ hr {
   column-gap: 24px;
 }
 
-.link-google {
-  display: block;
-  width: 26px;
-  height: 17px;
-  background-image: url("../images/Google+.png");
-  background-position: center;
-  background-size: cover;
-}
-
-.link-twitter {
-  display: block;
-  width: 22px;
-  height: 19px;
-  background-image: url("../images/Twitter.png");
-  background-position: center;
-  background-size: cover;
-}
-
-.link-facebook {
-  display: block;
-  width: 12px;
-  height: 20px;
-  background-image: url("../images/Facebook.png");
-  background-position: center;
-  background-size: cover;
-}
-
-.link-instagram {
-  display: block;
-  width: 19px;
-  height: 20px;
-  background-image: url("../images/Instagram.png");
-  background-position: center;
-  background-size: cover;
-}
-
 .footer-row {
   text-align: start;
 }
 
-.footer-row > ul {
+.footer-row {
   display: flex;
   column-gap: 16px;
 }
 
-.footer-section ul li:hover,
-.footer-section ul a:hover {
+.footer-section a:hover {
   color: #ffffff;
 }
 
@@ -918,7 +890,7 @@ hr {
     margin-bottom: 117px;
   }
 
-  .footer-row > ul {
+  .footer-row {
     flex-direction: column;
     row-gap: 16px;
   }

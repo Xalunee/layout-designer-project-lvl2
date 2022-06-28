@@ -1,6 +1,14 @@
 @import "general.scss";
 @import "variables.scss";
 
+html {
+  font-size: 24px;
+}
+
+html > * {
+  font-size: 16px;
+}
+
 .footer-section {
   padding-top: 3rem;
   padding-bottom: 2rem;
@@ -32,7 +40,8 @@
 }
 
 .footer-section ul li,
-.footer-section ul a {
+.footer-section a,
+.footer-section p {
   color: var(--grey);
 }
 
@@ -56,44 +65,15 @@ hr {
   column-gap: 24px;
 }
 
-.link-google {
-  display: block;
-  width: 26px;
-  height: 17px;
-  @include image("Google+");
-}
-
-.link-twitter {
-  display: block;
-  width: 22px;
-  height: 19px;
-  @include image("Twitter")
-}
-
-.link-facebook {
-  display: block;
-  width: 12px;
-  height: 20px;
-  @include image("Facebook")
-}
-
-.link-instagram {
-  display: block;
-  width: 19px;
-  height: 20px;
-  @include image("Instagram")
-}
-
 .footer-row {
   text-align: start;
 }
 
-.footer-row > ul {
+.footer-row {
   display: flex;
   column-gap: 16px;
 }
 
-.footer-section ul li:hover,
-.footer-section ul a:hover {
+.footer-section a:hover {
   color: #ffffff;
 }
