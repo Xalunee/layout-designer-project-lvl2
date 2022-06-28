@@ -2,7 +2,7 @@
 @import "variables.scss";
 
 .footer-section {
-  padding-top: 4rem;
+  padding-top: 3.9rem;
   padding-bottom: 3rem;
 }
 
@@ -20,7 +20,7 @@
   grid-template-rows: repeat(2, min-content);
   column-gap: 40px;
 
-  margin-bottom: calc(72px + 40px + 1px);
+  margin-bottom: 72px;
   
   text-align: start;
 }
@@ -52,23 +52,14 @@
 }
 
 hr {
-  position: absolute;
-  left: 0;
-
-  margin-top: -41px;
-
-  width: 100%;
-
   color: var(--dark-grey);
-}
-
-.footer-row {
-  text-align: start;
 }
 
 .footer-row {
   display: flex;
   column-gap: 16px;
+
+  margin-top: 40px;
 }
 
 .footer-section a:hover {
