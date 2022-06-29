@@ -1,3 +1,4 @@
+//adaptive for desktop viewport
 @media (min-width: 1240px) {
   .music-header {
     min-width: 1200px;
@@ -24,7 +25,9 @@
   }
 }
 
+//adaptive for mobile viewport
 @media (max-width: 811px) {
+  //header-section
   .music-header {
     padding: 0 20px;
   }
@@ -72,16 +75,20 @@
     width: 100%;
   }
 
-
+  //main-section
   .main-section {
     display: block;
-    padding: 200px 20px 200px 20px;
+    padding: 200px 20px;
     width: 100%;
   }
 
   .main-section > .container {
     margin-top: 50px;
     width: 100%;
+  }
+
+  .main-section > div > p {
+    margin: 16px 0;
   }
 
   .main-section > .container > p {
@@ -129,11 +136,7 @@
     line-height: 1.4em;
   }
 
-  .main-section > div > p {
-    margin: 16px 0;
-  }
-
-  
+  //pricing-section
   .pricing-section > .container {
     margin: 0 20px;
   }
@@ -155,8 +158,8 @@
     width: 100%;
   }
 
-
-  .news-section h2 {
+  //news-section
+  .news-section > .container h2 {
     font-size: 18px;
   }
 
@@ -187,7 +190,7 @@
     order: 0;
   }
 
-  
+  //app-section
   .app-section > .container {
     margin: 0 20px;
   }
@@ -201,11 +204,11 @@
     grid-row: 1;
   }
 
-  .app-description > p {
+  .app-section .app-description > p {
     margin-bottom: 16px;
   }
 
-
+  //footer-section
   .footer-section > .container {
     margin: 0 20px;
   }
@@ -218,7 +221,7 @@
     margin-bottom: 75px;
   }
 
-  .footer-col-subscribe h2 {
+  .footer-section .footer-col-subscribe h2 {
     margin-bottom: 19px;
   }
 

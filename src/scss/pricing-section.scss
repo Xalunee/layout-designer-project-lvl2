@@ -1,5 +1,3 @@
-@import "general.scss";
-
 p {
   margin: 0;
 }
@@ -22,7 +20,7 @@ p {
 }
 
 .pricing-item {
-  padding: 24px 1.5rem 0 1.5rem;
+  padding: 24px 1.5rem 0;
   height: 615px;
   width: calc(1100px / 3);
 
@@ -54,11 +52,11 @@ p {
 
 .btn-pricing {
   width: 100%;
-  border: 1px solid #ffffff;
+  border: 1px solid #fff;
 }
 
 .pricing-footer {
-  margin: 64px 0 64px 0;
+  margin: 64px 0;
   font-size: 12.8px;
   line-height: 150%;
 }

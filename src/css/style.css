@@ -1,14 +1,3 @@
-:root {
-  --black: #08020D;
-  --dark: #3C3B3D;
-  --grey: #E0E0E0;
-  --dark-grey: #CACACA;
-  --green: #34C176;
-  --orange: #F89202;
-  --purple: #5328A1;
-  --red: #95390C;
-}
-
 @font-face {
   font-weight: 700;
   font-family: Roboto;
@@ -46,23 +35,20 @@ h4 {
 
 * {
   margin: 0;
-}
-
-* {
   box-sizing: border-box;
 }
 
 a {
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
 }
 
 body {
   margin: 0;
-  color: #ffffff;
+  color: #fff;
   font-family: Roboto, sans-serif;
   line-height: 1.5em;
-  background-color: var(--black);
+  background-color: #08020D;
 }
 
 .music-header {
@@ -108,9 +94,6 @@ body {
   justify-self: left;
   flex-wrap: wrap;
   column-gap: 24px;
-}
-
-.list {
   margin: 0;
   padding: 0;
   font-weight: bold;
@@ -126,11 +109,11 @@ body {
 }
 
 .nav-link {
-  color: var(--dark-grey);
+  color: #CACACA;
 }
 
 .nav-link:hover {
-  color: #ffffff;
+  color: #fff;
   cursor: pointer;
 }
 
@@ -140,7 +123,7 @@ body {
   padding: 0 0 0 10px;
   color: #757575;
   text-transform: uppercase;
-  background-color: var(--dark);
+  background-color: #3C3B3D;
   border-radius: 50px;
   border: none;
 }
@@ -150,7 +133,7 @@ body {
 }
 
 .main-section {
-  padding: 200px 0 200px 0;
+  padding: 200px 0;
   width: 100%;
   background-image: url("../images/banner.png");
   background-position: center;
@@ -173,8 +156,8 @@ body {
   min-height: 50px;
   margin-bottom: 1.5rem;
   padding: 0 0 0 20px;
-  color: #ffffff;
-  border: 2px solid var(--dark-grey);
+  color: #fff;
+  border: 2px solid #CACACA;
   border-radius: 3px;
   background: none;
 }
@@ -197,10 +180,10 @@ body {
 .btn-access {
   width: 570px;
   height: 57px;
-  color: #ffffff;
+  color: #fff;
   cursor: pointer;
   border: none;
-  background-color: var(--green);
+  background-color: #34C176;
 }
 
 .sr-only {
@@ -218,45 +201,6 @@ body {
 
 .t-uppercase {
   text-transform: uppercase;
-}
-
-@font-face {
-  font-weight: 700;
-  font-family: Roboto;
-  src: url("../fonts/Roboto-Bold.ttf");
-}
-@font-face {
-  font-weight: 500;
-  font-family: Roboto;
-  src: url("../fonts/Roboto-Medium.ttf");
-}
-@font-face {
-  font-weight: 400;
-  font-family: Roboto;
-  src: url("../fonts/Roboto-Regular.ttf");
-}
-h1 {
-  font-size: 60px;
-  line-height: 1.5em;
-}
-
-h2 {
-  font-size: 38px;
-  line-height: 1.5em;
-}
-
-h3 {
-  font-size: 24px;
-  line-height: 1.5em;
-}
-
-h4 {
-  font-size: 18px;
-  line-height: 1.5em;
-}
-
-* {
-  margin: 0;
 }
 
 p {
@@ -280,7 +224,7 @@ p {
 }
 
 .pricing-item {
-  padding: 24px 1.5rem 0 1.5rem;
+  padding: 24px 1.5rem 0;
   height: 615px;
   width: 366.6666666667px;
   border-radius: 1rem;
@@ -309,11 +253,11 @@ p {
 
 .btn-pricing {
   width: 100%;
-  border: 1px solid #ffffff;
+  border: 1px solid #fff;
 }
 
 .pricing-footer {
-  margin: 64px 0 64px 0;
+  margin: 64px 0;
   font-size: 12.8px;
   line-height: 150%;
 }
@@ -334,56 +278,6 @@ p {
   background-image: url("../images/subscribe_3.png");
   background-position: center;
   background-size: cover;
-}
-
-@font-face {
-  font-weight: 700;
-  font-family: Roboto;
-  src: url("../fonts/Roboto-Bold.ttf");
-}
-@font-face {
-  font-weight: 500;
-  font-family: Roboto;
-  src: url("../fonts/Roboto-Medium.ttf");
-}
-@font-face {
-  font-weight: 400;
-  font-family: Roboto;
-  src: url("../fonts/Roboto-Regular.ttf");
-}
-h1 {
-  font-size: 60px;
-  line-height: 1.5em;
-}
-
-h2 {
-  font-size: 38px;
-  line-height: 1.5em;
-}
-
-h3 {
-  font-size: 24px;
-  line-height: 1.5em;
-}
-
-h4 {
-  font-size: 18px;
-  line-height: 1.5em;
-}
-
-* {
-  margin: 0;
-}
-
-:root {
-  --black: #08020D;
-  --dark: #3C3B3D;
-  --grey: #E0E0E0;
-  --dark-grey: #CACACA;
-  --green: #34C176;
-  --orange: #F89202;
-  --purple: #5328A1;
-  --red: #95390C;
 }
 
 p {
@@ -434,7 +328,7 @@ p {
 }
 
 .news-body > p {
-  color: var(--dark-grey);
+  color: #CACACA;
 }
 
 .news-body {
@@ -458,11 +352,11 @@ p {
 }
 
 .author {
-  color: var(--orange);
+  color: #F89202;
 }
 
 .date {
-  color: var(--dark-grey);
+  color: #CACACA;
 }
 
 .news-footer > .btn {
@@ -471,58 +365,8 @@ p {
   padding: 16px 30px;
   white-space: nowrap;
   font-size: 12px;
-  color: var(--dark-grey);
+  color: #CACACA;
   border: 1px solid #CACACA;
-}
-
-@font-face {
-  font-weight: 700;
-  font-family: Roboto;
-  src: url("../fonts/Roboto-Bold.ttf");
-}
-@font-face {
-  font-weight: 500;
-  font-family: Roboto;
-  src: url("../fonts/Roboto-Medium.ttf");
-}
-@font-face {
-  font-weight: 400;
-  font-family: Roboto;
-  src: url("../fonts/Roboto-Regular.ttf");
-}
-h1 {
-  font-size: 60px;
-  line-height: 1.5em;
-}
-
-h2 {
-  font-size: 38px;
-  line-height: 1.5em;
-}
-
-h3 {
-  font-size: 24px;
-  line-height: 1.5em;
-}
-
-h4 {
-  font-size: 18px;
-  line-height: 1.5em;
-}
-
-* {
-  margin: 0;
-}
-
-:root {
-  --black: #08020D;
-  --dark: #3C3B3D;
-  --grey: #E0E0E0;
-  --dark-grey: #CACACA;
-  --green: #34C176;
-  --orange: #F89202;
-  --purple: #5328A1;
-  --red: #95390C;
 }
 
 .app-section {
@@ -554,61 +398,11 @@ h4 {
 .btn-app {
   padding: 16px 40px;
   width: min-content;
-  color: #ffffff;
+  color: #fff;
   font-size: 12.8px;
   line-height: 1.5em;
-  background: var(--red);
+  background: #95390C;
   border-radius: 32px;
-}
-
-@font-face {
-  font-weight: 700;
-  font-family: Roboto;
-  src: url("../fonts/Roboto-Bold.ttf");
-}
-@font-face {
-  font-weight: 500;
-  font-family: Roboto;
-  src: url("../fonts/Roboto-Medium.ttf");
-}
-@font-face {
-  font-weight: 400;
-  font-family: Roboto;
-  src: url("../fonts/Roboto-Regular.ttf");
-}
-h1 {
-  font-size: 60px;
-  line-height: 1.5em;
-}
-
-h2 {
-  font-size: 38px;
-  line-height: 1.5em;
-}
-
-h3 {
-  font-size: 24px;
-  line-height: 1.5em;
-}
-
-h4 {
-  font-size: 18px;
-  line-height: 1.5em;
-}
-
-* {
-  margin: 0;
-}
-
-:root {
-  --black: #08020D;
-  --dark: #3C3B3D;
-  --grey: #E0E0E0;
-  --dark-grey: #CACACA;
-  --green: #34C176;
-  --orange: #F89202;
-  --purple: #5328A1;
-  --red: #95390C;
 }
 
 .footer-section {
@@ -641,7 +435,7 @@ h4 {
 .footer-section ul li,
 .footer-section a,
 .footer-section p {
-  color: var(--grey);
+  color: #E0E0E0;
 }
 
 .footer-col > h2 {
@@ -659,7 +453,7 @@ h4 {
 }
 
 hr {
-  color: var(--dark-grey);
+  color: #CACACA;
 }
 
 .footer-row {
@@ -669,7 +463,7 @@ hr {
 }
 
 .footer-section a:hover {
-  color: #ffffff;
+  color: #fff;
 }
 
 @media (min-width: 1240px) {
@@ -743,13 +537,17 @@ hr {
 
   .main-section {
     display: block;
-    padding: 200px 20px 200px 20px;
+    padding: 200px 20px;
     width: 100%;
   }
 
   .main-section > .container {
     margin-top: 50px;
     width: 100%;
+  }
+
+  .main-section > div > p {
+    margin: 16px 0;
   }
 
   .main-section > .container > p {
@@ -797,10 +595,6 @@ hr {
     line-height: 1.4em;
   }
 
-  .main-section > div > p {
-    margin: 16px 0;
-  }
-
   .pricing-section > .container {
     margin: 0 20px;
   }
@@ -821,7 +615,7 @@ hr {
     width: 100%;
   }
 
-  .news-section h2 {
+  .news-section > .container h2 {
     font-size: 18px;
   }
 
@@ -865,7 +659,7 @@ hr {
     grid-row: 1;
   }
 
-  .app-description > p {
+  .app-section .app-description > p {
     margin-bottom: 16px;
   }
 
@@ -880,7 +674,7 @@ hr {
     margin-bottom: 75px;
   }
 
-  .footer-col-subscribe h2 {
+  .footer-section .footer-col-subscribe h2 {
     margin-bottom: 19px;
   }
 

@@ -6,7 +6,6 @@
 
 @mixin button {
   padding: 20px 30px;
-  
   border-radius: 5px;
 }
 
@@ -55,4 +54,20 @@ h4 {
 
 * {
   margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+
+  color: #fff;
+  font-family: Roboto, sans-serif;
+  line-height: 1.5em;
+
+  background-color: $black;
 }
