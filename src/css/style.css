@@ -522,7 +522,9 @@ hr {
 }
 
 .popular-tracks-section {
+  margin: 0 auto;
   padding-top: 100px;
+  max-width: 1240px;
 }
 
 .popular-tracks-section h2 {
