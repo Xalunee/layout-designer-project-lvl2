@@ -521,6 +521,46 @@ hr {
   background-color: #95390C;
 }
 
+.popular-tracks-section {
+  padding-top: 100px;
+}
+
+.popular-tracks-section h2 {
+  margin-bottom: 48px;
+}
+
+.tracks {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  column-gap: 50px;
+  row-gap: 25px;
+}
+
+.popular-track {
+  display: flex;
+  align-items: center;
+}
+
+.popular-track > img {
+  margin-right: 15px;
+  height: 55px;
+  width: 55px;
+}
+
+.track-info {
+  text-align: start;
+}
+
+.popular-track h3 {
+  font-size: 12.8px;
+  line-height: 19.2px;
+}
+
+.track-time {
+  margin-left: auto;
+}
+
 @media (min-width: 1240px) {
   .music-header {
     min-width: 1200px;
@@ -743,6 +783,12 @@ hr {
   .artist-section .buttons {
     flex-direction: column;
     row-gap: 24px;
+  }
+
+  .tracks {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
   }
 }
 
