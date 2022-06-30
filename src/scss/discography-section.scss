@@ -19,12 +19,21 @@
   text-align: start;
 }
 
+.discography-item {
+  max-height: 319px;
+}
+
 .discography-item > img {
   margin-bottom: 18px;
 }
 
-.discography-item h3,
-.discography-item p {
+.discography-item h3 {
   font-size: 18px;
   line-height: 27px;
+  text-transform: capitalize;
+}
+
+.discography-item p {
+  font-size: 16px;
+  line-height: 24px;
 }

@@ -249,6 +249,14 @@
 
   //discography-section
   .discography-item > * {
+    width: 138px;
+  }
+
+  .discography-item > img {
     width: 137px;
+  }
+
+  .discography-item {
+    max-height: 233px;
   }
 }
