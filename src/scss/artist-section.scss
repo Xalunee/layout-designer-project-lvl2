@@ -1,9 +1,11 @@
 .artist-section {
-  padding: 250px 0 223px;
+  padding: 200px 0;
   @include image(Morten Harket);
 }
 
 .artist-section > .container {
+  margin-top: 50px;
+  margin-bottom: 23px;
   text-align: start;
 }
 
@@ -24,6 +26,7 @@
   height: 62px;
   width: 200px;
   color: #fff;
+  font-size: 12.8px;
   text-align: start;
   border: none;
 }

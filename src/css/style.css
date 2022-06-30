@@ -471,13 +471,15 @@ hr {
 }
 
 .artist-section {
-  padding: 250px 0 223px;
+  padding: 200px 0;
   background-image: url("../images/Morten Harket.png");
   background-position: center;
   background-size: cover;
 }
 
 .artist-section > .container {
+  margin-top: 50px;
+  margin-bottom: 23px;
   text-align: start;
 }
 
@@ -498,6 +500,7 @@ hr {
   height: 62px;
   width: 200px;
   color: #fff;
+  font-size: 12.8px;
   text-align: start;
   border: none;
 }
@@ -733,8 +736,8 @@ hr {
     width: calc(100% - 20px);
   }
 
-  .artist-section {
-    padding: 225px 0 225px;
+  .artist-section > .container {
+    margin-top: 25px;
   }
 
   .artist-section .buttons {
