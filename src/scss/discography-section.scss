@@ -1,0 +1,26 @@
+.discography-section {
+  margin: 0 auto;
+  padding-top: 100px;
+  max-width: 1240px;
+}
+
+.discography-section h2 {
+  margin-bottom: 48px;
+}
+
+.discography {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 50px;
+  row-gap: 25px;
+}
+
+.discography-section > .container {
+  text-align: start;
+}
+
+.discography-item h3,
+.discography-item p {
+  font-size: 18px;
+  line-height: 27px;
+}

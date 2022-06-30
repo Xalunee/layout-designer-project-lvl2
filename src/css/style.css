@@ -565,6 +565,33 @@ hr {
   font-size: 12.8px;
 }
 
+.discography-section {
+  margin: 0 auto;
+  padding-top: 100px;
+  max-width: 1240px;
+}
+
+.discography-section h2 {
+  margin-bottom: 48px;
+}
+
+.discography {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 50px;
+  row-gap: 25px;
+}
+
+.discography-section > .container {
+  text-align: start;
+}
+
+.discography-item h3,
+.discography-item p {
+  font-size: 18px;
+  line-height: 27px;
+}
+
 @media (min-width: 1240px) {
   .music-header {
     min-width: 1200px;
@@ -793,6 +820,10 @@ hr {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(6, 1fr);
+  }
+
+  .discography-item > img {
+    width: 137px;
   }
 }
 
