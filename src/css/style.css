@@ -586,6 +586,10 @@ hr {
   text-align: start;
 }
 
+.discography-item > img {
+  margin-bottom: 18px;
+}
+
 .discography-item h3,
 .discography-item p {
   font-size: 18px;
@@ -822,7 +826,7 @@ hr {
     grid-template-rows: repeat(6, 1fr);
   }
 
-  .discography-item > img {
+  .discography-item > * {
     width: 137px;
   }
 }
