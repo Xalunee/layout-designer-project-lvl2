@@ -231,7 +231,11 @@
   }
 
   //artist-section
-  .buttons {
+  .artist-section {
+    padding: 225px 0 225px;
+  }
+
+  .artist-section .buttons {
     flex-direction: column;
     row-gap: 24px;
   }

@@ -1,5 +1,5 @@
 .artist-section {
-  padding: 200px 0;
+  padding: 250px 0 223px;
   @include image(Morten Harket);
 }
 
@@ -21,29 +21,19 @@
 }
 
 .buttons > button {
-  position: relative;
   height: 62px;
   width: 200px;
   color: #fff;
+  text-align: start;
   border: none;
 }
 
-.buttons > .btn-mix::before,
-.buttons > .btn-favorites::before {
-  position: absolute;
-  margin-left: -36px;
+.buttons img {
+  margin-right: 16px;
   width: 20px;
   height: 20px;
+  transform: translateY(25%);
   filter: invert(100%);
-  content: "";
-}
-
-.buttons > .btn-mix::before {
-  background-image: url(../images/play-button.svg);
-}
-
-.buttons > .btn-favorites::before {
-  background-image: url(../images/heart.svg);
 }
 
 .btn-mix {
