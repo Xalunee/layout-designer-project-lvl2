@@ -117,6 +117,10 @@ body {
   cursor: pointer;
 }
 
+.l-active {
+  color: #fff;
+}
+
 .search {
   width: 248px;
   height: 25px;
@@ -466,6 +470,64 @@ hr {
   color: #fff;
 }
 
+.artist-section {
+  padding: 200px 0;
+  background-image: url("../images/Morten Harket.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.artist-section > .container {
+  text-align: start;
+}
+
+.artist-section h1 {
+  margin-bottom: 16px;
+}
+
+.artist-section p {
+  margin-bottom: 48px;
+}
+
+.buttons {
+  display: flex;
+  column-gap: 24px;
+}
+
+.buttons > button {
+  position: relative;
+  height: 62px;
+  width: 200px;
+  color: #fff;
+  border: none;
+}
+
+.buttons > .btn-mix::before,
+.buttons > .btn-favorites::before {
+  position: absolute;
+  margin-left: -36px;
+  width: 20px;
+  height: 20px;
+  filter: invert(100%);
+  content: "";
+}
+
+.buttons > .btn-mix::before {
+  background-image: url(../images/play-button.svg);
+}
+
+.buttons > .btn-favorites::before {
+  background-image: url(../images/heart.svg);
+}
+
+.btn-mix {
+  background-color: #5328A1;
+}
+
+.btn-favorites {
+  background-color: #95390C;
+}
+
 @media (min-width: 1240px) {
   .music-header {
     min-width: 1200px;
@@ -492,6 +554,10 @@ hr {
   }
 }
 @media (max-width: 811px) {
+  .container {
+    margin: 0 20px;
+  }
+
   .music-header {
     padding: 0 20px;
   }
@@ -542,6 +608,7 @@ hr {
   }
 
   .main-section > .container {
+    margin: 0;
     margin-top: 50px;
     width: 100%;
   }
@@ -595,10 +662,6 @@ hr {
     line-height: 1.4em;
   }
 
-  .pricing-section > .container {
-    margin: 0 20px;
-  }
-
   .pricing-section > .container > h2 {
     margin-bottom: 46px;
   }
@@ -628,10 +691,6 @@ hr {
     row-gap: 65px;
   }
 
-  .news-section > .container {
-    margin: 0 20px;
-  }
-
   .news-item {
     flex-wrap: wrap;
   }
@@ -644,10 +703,6 @@ hr {
 
   .news-item:nth-child(2n) > img {
     order: 0;
-  }
-
-  .app-section > .container {
-    margin: 0 20px;
   }
 
   .app-section > .container > div {
@@ -686,6 +741,11 @@ hr {
 
   .footer-row > a {
     width: calc(100% - 20px);
+  }
+
+  .buttons {
+    flex-direction: column;
+    row-gap: 24px;
   }
 }
 

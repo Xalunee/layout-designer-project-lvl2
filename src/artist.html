@@ -4,10 +4,49 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>layout-designer-project-lvl2</title>
-  <link rel="stylesheet" href="">
+  <title>Artist</title>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-  
+  <header class="music-header">
+    <div class="header-row">
+      <div class="heading">
+        <img class="logo" src="./images/logo.svg" alt="Логотип">
+        <a class="heading-link" href="#">Music Box</a>
+      </div>
+      <nav class="nav">
+        <ul class="list">
+          <li class="list-item">
+            <a class="nav-link" href="index.html">Главная</a>
+          </li>
+          <li class="list-item">
+            <a class="nav-link" href="#">Каталог</a>
+          </li>
+          <li class="list-item">
+            <a class="nav-link l-active" href="artist.html">Исполнители</a>
+          </li>
+          <li class="list-item">
+            <a class="nav-link" href="#">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="self-right">
+        <label class="sr-only" for="search">Поиск по сайту</label>
+        <input class="search" id="search" type="text" placeholder="Поиск...">
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="artist-section" id="page-description">
+      <div class="container">
+        <h1 class="t-uppercase">Morten Harket</h1>
+        <p>24 875 поклонников</p>
+        <div class="buttons">
+          <button class="btn btn-mix t-uppercase">Микс</button>
+          <button class="btn btn-favorites t-uppercase">В избранное</button>
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
