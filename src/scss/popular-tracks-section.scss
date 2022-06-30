@@ -31,11 +31,13 @@
   text-align: start;
 }
 
-.popular-track h3 {
+.popular-track h3,
+.popular-track p {
   font-size: 12.8px;
   line-height: 19.2px;
 }
 
 .track-time {
   margin-left: auto;
+  font-size: 12.8px;
 }
