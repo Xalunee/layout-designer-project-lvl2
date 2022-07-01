@@ -834,12 +834,11 @@ hr {
 
   .discography-item > * {
     width: 138px;
-    height: min-content;
-    box-sizing: border-box;
   }
 
   .discography-item > img {
     width: 137px;
+    height: auto;
   }
 }
 
