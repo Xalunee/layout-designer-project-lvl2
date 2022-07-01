@@ -586,11 +586,8 @@ hr {
   text-align: start;
 }
 
-.discography-item {
-  max-height: 319px;
-}
-
 .discography-item > img {
+  display: block;
   margin-bottom: 18px;
 }
 
@@ -837,14 +834,12 @@ hr {
 
   .discography-item > * {
     width: 138px;
+    height: min-content;
+    box-sizing: border-box;
   }
 
   .discography-item > img {
     width: 137px;
-  }
-
-  .discography-item {
-    max-height: 233px;
   }
 }
 

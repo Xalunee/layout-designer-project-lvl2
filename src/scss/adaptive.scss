@@ -250,13 +250,11 @@
   //discography-section
   .discography-item > * {
     width: 138px;
+    height: min-content;
+    box-sizing: border-box;
   }
 
   .discography-item > img {
     width: 137px;
-  }
-
-  .discography-item {
-    max-height: 233px;
   }
 }
