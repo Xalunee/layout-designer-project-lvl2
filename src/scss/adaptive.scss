@@ -1,4 +1,4 @@
-//adaptive for desktop viewport
+// adaptive for desktop viewport
 @media (min-width: 1240px) {
   .music-header {
     min-width: 1200px;
@@ -25,9 +25,9 @@
   }
 }
 
-//adaptive for mobile viewport
+// adaptive for mobile viewport
 @media (max-width: 811px) {
-  //header-section
+  // header-section
   .container {
     margin: 0 20px;
   }
@@ -36,10 +36,8 @@
     padding: 0 20px;
   }
 
-
   .header-row {
     display: block;
-    
     height: auto;
   }
 
@@ -57,17 +55,14 @@
 
   .list {
     display: block;
-
-    width: min-content ;
+    width: min-content;
     height: min-content;
   }
 
   .list-item {
     display: block;
-
     margin-bottom: 3px;
     height: 13px;
-
     line-height: 13px;
   }
 
@@ -75,12 +70,12 @@
     margin-right: 0;
     margin-bottom: 17px;
   }
-  
+
   .search {
     width: 100%;
   }
 
-  //main-section
+  // main-section
   .main-section {
     display: block;
     padding: 200px 20px;
@@ -127,7 +122,7 @@
   h1 {
     font-size: 30px;
   }
-  
+
   h2 {
     font-size: 18px;
   }
@@ -142,7 +137,7 @@
     line-height: 1.4em;
   }
 
-  //pricing-section
+  // pricing-section
   .pricing-section > .container > h2 {
     margin-bottom: 46px;
   }
@@ -150,7 +145,6 @@
   .items {
     flex-direction: column;
     row-gap: 50px;
-
     margin-bottom: 40px;
   }
 
@@ -160,7 +154,7 @@
     width: 100%;
   }
 
-  //news-section
+  // news-section
   .news-section > .container h2 {
     font-size: 18px;
   }
@@ -184,11 +178,11 @@
     height: auto;
   }
 
-  .news-item:nth-child(2n) > img{
+  .news-item:nth-child(2n) > img {
     order: 0;
   }
 
-  //app-section
+  // app-section
   .app-section > .container > div {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -202,7 +196,7 @@
     margin-bottom: 16px;
   }
 
-  //footer-section
+  // footer-section
   .footer-section > .container {
     margin: 0 20px;
   }
@@ -211,7 +205,6 @@
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(4, min-content);
     row-gap: 30px;
-  
     margin-bottom: 75px;
   }
 
@@ -222,7 +215,6 @@
   .footer-row {
     flex-direction: column;
     row-gap: 16px;
-
     text-align: start;
   }
 
@@ -230,7 +222,7 @@
     width: calc(100% - 20px);
   }
 
-  //artist-section
+  // artist-section
   .artist-section > .container {
     margin-top: 25px;
   }
@@ -240,23 +232,23 @@
     row-gap: 24px;
   }
 
-  //popular-tracks-section
+  // popular-tracks-section
   .tracks {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(6, 1fr);
   }
 
-  //discography-section
+  // discography-section
   .discography-item > * {
     width: 138px;
   }
 
-  .discography-item > img {
+  .discography-section .discography-item > img {
     width: 137px;
   }
 
-  //similar-section
+  // similar-section
   .similar-item > * {
     width: 137px;
   }

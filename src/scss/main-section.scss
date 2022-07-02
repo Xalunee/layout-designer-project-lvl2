@@ -1,6 +1,5 @@
 .main-section {
   padding: 200px 0;
-
   width: 100%;
 
   @include image(banner);
@@ -20,12 +19,9 @@
 .form-input {
   min-width: 273px;
   min-height: 50px;
-
   margin-bottom: 1.5rem;
   padding: 0 0 0 20px;
-
   color: #fff;
-
   border: 2px solid $dark-grey;
   border-radius: 3px;
   background: none;
@@ -42,7 +38,6 @@
 .btn {
   display: block;
   padding: 20px 30px;
-  
   cursor: pointer;
   border-radius: 5px;
 }
@@ -50,9 +45,7 @@
 .btn-access {
   width: 570px;
   height: 57px;
-
   color: #fff;
-
   cursor: pointer;
   border: none;
   background-color: $green;

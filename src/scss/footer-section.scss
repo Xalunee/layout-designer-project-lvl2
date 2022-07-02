@@ -16,15 +16,12 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, min-content);
   column-gap: 40px;
-
   margin-bottom: 72px;
-  
   text-align: start;
 }
 
 .footer-section ul {
   padding: 0;
-
   list-style: none;
 }
 
@@ -55,7 +52,6 @@ hr {
 .footer-row {
   display: flex;
   column-gap: 16px;
-
   margin-top: 40px;
 }
 

@@ -1,5 +1,5 @@
 @mixin image($name) {
-  background-image: url('../images/#{$name}.png');
+  background-image: url("../images/#{$name}.png");
   background-position: center;
   background-size: cover;
 }
@@ -64,10 +64,8 @@ a {
 
 body {
   margin: 0;
-
   color: #fff;
   font-family: Roboto, sans-serif;
   line-height: 1.5em;
-
   background-color: $black;
 }

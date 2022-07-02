@@ -48,7 +48,7 @@ body {
   color: #fff;
   font-family: Roboto, sans-serif;
   line-height: 1.5em;
-  background-color: #08020D;
+  background-color: #08020d;
 }
 
 .music-header {
@@ -109,7 +109,7 @@ body {
 }
 
 .nav-link {
-  color: #CACACA;
+  color: #cacaca;
 }
 
 .nav-link:hover {
@@ -127,7 +127,7 @@ body {
   padding: 0 0 0 10px;
   color: #757575;
   text-transform: uppercase;
-  background-color: #3C3B3D;
+  background-color: #3c3b3d;
   border-radius: 50px;
   border: none;
 }
@@ -161,7 +161,7 @@ body {
   margin-bottom: 1.5rem;
   padding: 0 0 0 20px;
   color: #fff;
-  border: 2px solid #CACACA;
+  border: 2px solid #cacaca;
   border-radius: 3px;
   background: none;
 }
@@ -187,7 +187,7 @@ body {
   color: #fff;
   cursor: pointer;
   border: none;
-  background-color: #34C176;
+  background-color: #34c176;
 }
 
 .sr-only {
@@ -332,7 +332,7 @@ p {
 }
 
 .news-body > p {
-  color: #CACACA;
+  color: #cacaca;
 }
 
 .news-body {
@@ -356,11 +356,11 @@ p {
 }
 
 .author {
-  color: #F89202;
+  color: #f89202;
 }
 
 .date {
-  color: #CACACA;
+  color: #cacaca;
 }
 
 .news-footer > .btn {
@@ -369,8 +369,8 @@ p {
   padding: 16px 30px;
   white-space: nowrap;
   font-size: 12px;
-  color: #CACACA;
-  border: 1px solid #CACACA;
+  color: #cacaca;
+  border: 1px solid #cacaca;
 }
 
 .app-section {
@@ -405,7 +405,7 @@ p {
   color: #fff;
   font-size: 12.8px;
   line-height: 1.5em;
-  background: #95390C;
+  background: #95390c;
   border-radius: 32px;
 }
 
@@ -439,7 +439,7 @@ p {
 .footer-section ul li,
 .footer-section a,
 .footer-section p {
-  color: #E0E0E0;
+  color: #e0e0e0;
 }
 
 .footer-col > h2 {
@@ -457,7 +457,7 @@ p {
 }
 
 hr {
-  color: #CACACA;
+  color: #cacaca;
 }
 
 .footer-row {
@@ -514,11 +514,11 @@ hr {
 }
 
 .btn-mix {
-  background-color: #5328A1;
+  background-color: #5328a1;
 }
 
 .btn-favorites {
-  background-color: #95390C;
+  background-color: #95390c;
 }
 
 .popular-tracks-section {
@@ -878,7 +878,7 @@ hr {
     width: 138px;
   }
 
-  .discography-item > img {
+  .discography-section .discography-item > img {
     width: 137px;
   }
 

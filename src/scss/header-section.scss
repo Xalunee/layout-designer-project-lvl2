@@ -1,9 +1,7 @@
 .music-header {
   position: absolute;
   top: 25px;
-
   width: 100%;
-
   font-size: 11px;
   line-height: 1.5em;
   text-transform: uppercase;
@@ -14,7 +12,6 @@
   grid-template-rows: repeat(1, 1fr);
   grid-template-columns: repeat(1, min-content) repeat(1, 1fr) repeat(1, 1fr);
   align-items: center;
-
   margin: 0 auto;
   max-width: 1200px;
 }
@@ -22,7 +19,6 @@
 .heading {
   display: flex;
   align-items: center;
-  
   margin-right: 90px;
 }
 
@@ -35,9 +31,8 @@
   margin-right: 16px;
   width: 24px;
   height: 24px;
-
   background-size: cover;
-  background-image: url('../images/logo.svg');
+  background-image: url("../images/logo.svg");
   content: "";
 }
 
@@ -48,7 +43,6 @@
   column-gap: 24px;
   margin: 0;
   padding: 0;
-
   font-weight: bold;
   list-style: none;
 }
@@ -67,7 +61,6 @@
 
 .nav-link:hover {
   color: #fff;
-
   cursor: pointer;
 }
 
@@ -78,11 +71,9 @@
 .search {
   width: 248px;
   height: 25px;
-
   padding: 0 0 0 10px;
   color: #757575;
   text-transform: uppercase;
-
   background-color: $dark;
   border-radius: 50px;
   border: none;
